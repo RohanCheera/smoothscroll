@@ -1,0 +1,35 @@
+.chart-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Set the height of the chart */
+  }
+  
+  .mark-bar {
+    animation: dance 0.5s ease-in-out infinite alternate;
+  }
+  
+  /* Keyframes for "dancing" effect */
+  @keyframes dance {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-10px) rotate(-5deg);
+    }
+    50% {
+      transform: translateY(0) rotate(5deg);
+    }
+    75% {
+      transform: translateY(10px) rotate(-5deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
+  
+  /* Optional: Add style for the bars */
+  .mark-bar rect {
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center bottom;
+  }
+  

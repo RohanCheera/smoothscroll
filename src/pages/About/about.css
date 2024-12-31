@@ -1,0 +1,58 @@
+.about-main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f9; /* Light background color */
+}
+
+.about {
+  margin: 0;
+  padding: 4rem;
+  background-color: #90AEAD; 
+  color: #fff;
+  border-radius: 15px; /* Soft round corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  text-align: center; /* Center align content */
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.about-title-text {
+  margin: 0;
+  padding-bottom: 2rem;
+  font-size: 3rem; /* Larger title */
+  font-weight: bold;
+}
+
+.aboutme-content {
+  padding-right: 1.5rem;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.2rem;
+  color: #e2e2e2; /* Light grey text for better contrast */
+  line-height: 1.6;
+}
+
+.aboutme-content-bt{
+  width: 5rem;
+}
+/* Mobile devices with a maximum width of 767px */
+@media (max-width: 767px) {
+  .about{
+    padding: 1rem;
+  }
+  .about-title-text{
+    padding-bottom: 2rem;
+  }
+  .aboutme-content{
+    padding-right: 1rem;
+  }
+}
+/* Tablets or medium-sized devices with a width between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for medium-sized devices here */
+}
+/* Desktops or larger devices with a width of 1024px or more */
+@media (min-width: 1024px) {
+  /* Your CSS styles for large devices here */
+}
