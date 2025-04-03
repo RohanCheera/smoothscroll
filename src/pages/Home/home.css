@@ -54,18 +54,21 @@ p{
 
 @media (max-width: 767px) {
   .home-content {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
-    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items */
   }
 
   .text-con {
     text-align: center; /* Center text for smaller screens */
-    width: 100%;
+    width: 100%; /* Full width for text content */
+    order: 1; /* Ensure text-con appears first */
   }
 
   .ani {
-    margin-left: 0;
-    width: 80%; /* Adjust globe size for small screens */
+    margin-left: 0; /* Remove left margin */
+    margin-top: 20px; /* Add some spacing between text and globe */
+    width: 80%; /* Adjust globe size for mobile */
+    order: 2; /* Ensure ani (globe) appears second */
   }
 }
 
