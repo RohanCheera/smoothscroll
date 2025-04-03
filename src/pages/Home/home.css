@@ -28,7 +28,7 @@ p{
   margin-bottom: 20px;
   text-align: left; /* Ensures text aligns left */
   letter-spacing: -10px;
- 
+  z-index: 4;
 }
 .hm-btn {
   background-color: var(--primary-color);
